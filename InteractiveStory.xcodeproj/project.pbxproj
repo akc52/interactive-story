@@ -14,6 +14,8 @@
 		A941670E21402F0000F59ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A941670C21402F0000F59ACB /* LaunchScreen.storyboard */; };
 		A941671921402F0000F59ACB /* InteractiveStoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941671821402F0000F59ACB /* InteractiveStoryTests.swift */; };
 		A941672421402F0000F59ACB /* InteractiveStoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941672321402F0000F59ACB /* InteractiveStoryUITests.swift */; };
+		A941673221403E7600F59ACB /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941673121403E7600F59ACB /* Story.swift */; };
+		A94167342140414D00F59ACB /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94167332140414D00F59ACB /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A941671F21402F0000F59ACB /* InteractiveStoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveStoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A941672321402F0000F59ACB /* InteractiveStoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveStoryUITests.swift; sourceTree = "<group>"; };
 		A941672521402F0000F59ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A941673121403E7600F59ACB /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		A94167332140414D00F59ACB /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A941670A21402F0000F59ACB /* Assets.xcassets */,
 				A941670C21402F0000F59ACB /* LaunchScreen.storyboard */,
 				A941670F21402F0000F59ACB /* Info.plist */,
+				A941673121403E7600F59ACB /* Story.swift */,
+				A94167332140414D00F59ACB /* Page.swift */,
 			);
 			path = InteractiveStory;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A941670621402EFA00F59ACB /* ViewController.swift in Sources */,
+				A941673221403E7600F59ACB /* Story.swift in Sources */,
+				A94167342140414D00F59ACB /* Page.swift in Sources */,
 				A941670421402EFA00F59ACB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
